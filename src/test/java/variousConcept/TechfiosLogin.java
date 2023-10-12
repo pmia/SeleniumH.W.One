@@ -43,6 +43,7 @@ public class TechfiosLogin {
 		driver.findElement(By.name("password")).sendKeys("abc123");
 		driver.findElement(By.name("login")).click();
 		Thread.sleep(3000);
+		System.out.println("Just testting if i can add this code to the testBranch");
 		// Xpath
 		// Here, / = select from root node. means, select from <html> opening node and that's a absolute path
 		// Here, // = (ui is a node)select from current node and that's a relative path
